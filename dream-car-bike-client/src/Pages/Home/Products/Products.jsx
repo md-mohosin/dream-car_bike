@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import Bikes from '../../Bikes/Bikes';
 
 
 const Products = () => {
@@ -7,12 +8,12 @@ const Products = () => {
         <div>
             <Tabs>
                 <TabList>
-                    <Tab>Title 1</Tab>
-                    <Tab>Title 2</Tab>
+                    <Tab>BIKE</Tab>
+                    <Tab>CAR</Tab>
                 </TabList>
 
                 <TabPanel>
-                    <h2>Any content 1</h2>
+                    <Bikes></Bikes>
                 </TabPanel>
                 <TabPanel>
                     <h2>Any content 2</h2>
